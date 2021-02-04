@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f4f9fc;
 }
 #lienhetheu{
-	margin: 0 75px;
+	margin: 0 4rem;
   padding: 0;
   list-style: none;
 }
@@ -156,6 +156,36 @@ font-size: 25px;
     margin: 0 auto;
     background: #67b0d1;
 }
+#anhCoVan{
+    width: 15vw;
+    height: 15vw;
+    background: url(../img/anhCoVan.jpg) top center;
+    background-size: cover;
+    position: relative;
+    /* text-align: center; */
+    margin: 0 auto;
+
+}
+#logoAlevel{
+    background: url(../img/A-Level+-Logo-3.png);
+    background-size: 100% 100%;
+   
+    }
+/*#anh2{background: url(../img/Yale_University_Logo.jpg);
+    background-size: 100% 100%;
+}
+#anh3{background: url(../img/harvard-logo-2x.png);
+    background-size: 100% 100%;
+}
+#anh4{background: url(../img/SUSig_Seal_Left.png);
+    background-size: 100% 100%;
+}
+#anh5{background: url(../img/Dartmouth_College_logo.png);
+    background-size: 100% 100%;
+}
+/*#anh1{background: url(../img/princeton-logo.jpeg);
+    background-size: 100% 100%;
+}*/
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -796,19 +826,20 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
-  padding: 60px 0;
+  /*background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;*/
+  /*padding: 60px 0;*/
+  padding: 20px 0 60px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: #f4972c;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #666666;
 }
 
 .cta .cta-btn {

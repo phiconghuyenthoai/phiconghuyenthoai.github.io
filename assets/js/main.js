@@ -56,6 +56,10 @@ setInterval(function(){
     $('#plpl').height($("#header").height() + 15);
 $("#dongHoNgayThangNam").text(square());
        soSanhChieuDai();
+           $('#logoAlevel').height($("#bentrongheader").height());
+           $('#logoAlevel').width(($("#bentrongheader").height()/2)*3);
+
+
 }, 30);
 
        function chuyenTrangMoTa(){

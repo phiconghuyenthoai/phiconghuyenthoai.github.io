@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Squadfree Bootstrap Template - Index</title>
+  <title>Alevel Plus</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -49,11 +49,8 @@
           <li><a href="#portfolio"><i class="bx bx-phone-call"></i></a></li>
         </ul>
     </div>
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <h1 class="text-light"><a href="file:///C:/Users/ADMIN/Desktop/Untitled%20Export/Squadfree/Squadfree/index.html"><span>Alevel Plus</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    <div class="container d-flex align-items-center justify-content-between" id="bentrongheader">
+      <div class="logo" id="logoAlevel" onclick="chuyenvetrangchu()">
       </div>
       <div>
 <!--         <div>
@@ -65,11 +62,17 @@
 
 
         <nav class="nav-menu d-none d-lg-block">
-        <ul>
+                <ul>
           <!-- <li class="active"><a href="index.html">Về chúng tôi</a></li> -->
-          <li><a href="#about">Về chúng tôi</a></li>
-          <li><a href="#services">Chương trình học</a></li>
-          <li><a href="#testimonials">Dành cho phụ huynh</a></li>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="xemThemVeToi.html">Về chúng tôi</a></li>
+          <li class="drop-down"><a href="">Chương trình học</a>
+            <ul>
+              <li><a href="moTaChuongTrinh.html">Mô tả chương trình</a></li>
+              <li><a href="bangHocPhi.html">Học phí</a></li>
+            </ul>
+          </li>
+          <li><a href="danhChoPhuHuynh.html">Dành cho phụ huynh</a></li>
           <li><a href="#portfolio">Cơ hội việc làm</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -167,6 +170,51 @@ ILower secondary, GCSE và Alevel.
 
       </div>
     </section><!-- End About Section -->
+    <br>
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3 style="text-transform: uppercase;">International recognition by world class institution</h3>
+          <br>
+          <p> Our students have been admitted to world class institutions including Princeton, Yale, Harvard, Stanford, Dartmouth, Columbia, Swarthmore, Columbia MBA, Wharton MBA, INSEAD, LBS, and Kellog MBA, Berkeley Ph.D. in Engineering, and many more.</p>
+          
+        </div>
+        <br>
+<div style="    text-align: center;">
+            <img src="assets/img/princeton-logo.jpeg" id="anh1" style="
+    background-size: contain;
+    width: 15%;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-right: 3.75%;">
+            <img src="assets/img/Yale_University_Logo.jpg" id="anh2" style="
+    background-size: contain;
+    width: 15%;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-right: 3.75%;">
+    <img src="assets/img/harvard-logo-2x.png" id="anh3" style="
+    background-size: contain;
+    width: 15%;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-right: 3.75%;">
+    <img src="assets/img/SUSig_Seal_Left.png" id="anh4" style="
+    background-size: contain;
+    width: 15%;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-right: 3.75%;">
+    <img src="assets/img/Dartmouth_College_logo.png" id="anh5" style="
+    background-size: contain;
+    width: 15%;
+    background-repeat: no-repeat;
+    height: auto;">
+
+          </div>
+      </div>
+    </section><!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -422,11 +470,11 @@ không? Trường hợp con tôi muốn học tại các trường ĐH ở Hàn 
           <div class="col-lg-4 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="150">
             <h4>Đi tới</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">ALEVEL PLUS
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">ALEVEL PLUS
 </a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Về Chúng Tôi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Chương Trình Học</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Dành Cho Phụ Huynh</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="xemThemVeToi.html">Về Chúng Tôi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="moTaChuongTrinh.html">Chương Trình Học</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="danhChoPhuHuynh.html">Dành Cho Phụ Huynh</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Cơ Hội Việc Làm</a></li>
             </ul>
           </div>
@@ -493,13 +541,16 @@ không? Trường hợp con tôi muốn học tại các trường ĐH ở Hàn 
   <script src="assets/js/main.js"></script>
   <script type="text/javascript">
          function chuyenTrangMoTa(){
-  window.location="index.html";
+  window.location="moTaChuongTrinh.html";
 }
 function chuyenHocPhi(){
-  window.location="index.html";
+  window.location="bangHocPhi.html";
 giaiDapThacMac
 }
 function giaiDapThacMac(){
+  window.location="danhChoPhuHuynh.html";
+}
+function chuyenvetrangchu(){
   window.location="index.html";
 }
 
