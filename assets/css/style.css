@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 #lienHeChungToi{
 	clear: both;
     display: block;
-    height: 2rem;
+     height: 35px;
     /*padding: 10px 0px 8px 0px;*/
     background-color: #f4f9fc;
 }
