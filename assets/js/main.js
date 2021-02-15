@@ -77,16 +77,19 @@ function chuyenHocPhi(){
      var listMonth = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
      var date = new Date();
     var day = date.getDate();
-    var month = date.getMonth() + 1;
+    var month = date.getMonth();
     if (day < 10) {
       day = "0" + day;
     }
     var year = date.getFullYear();
     var ngaythangnam = day + " " + listMonth[month] + " " + year + " to";
+
+
     // $("#dongHoNgayThangNam").text(ngaythangnam);
 
   return ngaythangnam;
 }
+
 function soSanhChieuDai(){
   var chieuDaiMoTaChuongTrinh = $('#moTaChuongTrinh').height();
     var chieuDaiMoTaChuongTrinh = $('#bangHocPhi').height();

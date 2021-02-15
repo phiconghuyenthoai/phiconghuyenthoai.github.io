@@ -441,6 +441,22 @@ font-size: 1.5em;
     object-fit: cover;
 
 }*/
+#scscscqs {
+    /* display: inline-block; */
+    background: #67b0d1;
+    padding: 6px 44px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+    position: relative;
+}
+#scscscqs i {
+  font-size: 18px;
+    position: absolute;
+    right: 18px;
+    top: 9px;
+}
+
 #taolaDuong{
   /*width: 100%;*/
   /*height: 75vh;*/
@@ -1529,6 +1545,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+@media (max-width: 770px) {
+  .ngayThangDanhChoPhuHuynh{
+    display: none !important;;
+  }
+
 }
 
 @media (max-width: 575px) {
